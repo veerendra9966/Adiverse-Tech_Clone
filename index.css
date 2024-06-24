@@ -42,7 +42,9 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    position: relative; 
+     position: absolute;
+    left: 310px;
+    top: 10px;
 }
 li{
     list-style: none;
@@ -59,7 +61,8 @@ a:hover{
     background-color: white;
     box-shadow:1px 1px 20px rgba(233, 220, 220, 0.637);
     line-height: 30px;
-    display: none;   
+    display: none;  
+    position:absolute;
 }
 #sublist2{
     width: 150px;
@@ -67,17 +70,14 @@ a:hover{
     background-color: white;
     box-shadow:1px 1px 20px rgba(233, 220, 220, 0.637);
     line-height: 30px;
-    display: none;   
+    display: none; 
+    position:absolute;
 }
 #services:hover #sublist1{
     display:block;
-    position: relative;
-    top: 10px;
 }
 #about:hover #sublist2{
     display:block;
-    position: relative;
-    top: 10px;
 }
 .anchor{
     text-decoration: none;
