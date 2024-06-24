@@ -42,7 +42,7 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-     position: absolute;
+    position: absolute;
     left: 310px;
     top: 10px;
 }
